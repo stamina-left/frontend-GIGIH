@@ -116,3 +116,15 @@ progress {
 [hidden] {
   display: none;
 }
+
+#track-details {
+  border: black solid 2mm;
+  background-color: sandybrown;
+  margin: 2% 2%;
+  padding: 1%;
+}
+
+#track-details img {
+  width: 20%;
+  height: auto;
+}
