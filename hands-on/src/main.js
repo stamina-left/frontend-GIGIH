@@ -12,12 +12,11 @@ const students = [
 ];
 
 
-function counter() {
-  let seconds = 0;
-  setInterval(() => {
-    seconds += 1;
-    document.getElementById('app').innerHTML = `<p>You have been here for ${seconds} seconds.</p>`;
-  }, 1000);
+function calculateAverageAge(acc, { age = 20 }) {
+  return acc + age;
 }
 
-counter();
+function getAverageAge(students) {
+  const totalAge = students.reduce(calculateAverageAge, 0);
+  return totalAge / students.length;
+}
