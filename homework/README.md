@@ -7,10 +7,10 @@ A JavaScript project
 - [X] Have a heading 1 with "Create Playlist" text.
 - [X] Have a form which accepts title and description on the playlist.
 - [X] When the form submitted, show a popup with alert() with some text.
-- [ ] Create a div that contains this following items.
-    - [ ] Pictures, you can pick some items on the internet.
-    - [ ] A text for Title.
-    - [ ] A text for Artist.
-    - [ ] A text for Albums.
-    - [ ] A button that does nothing.
-    - [ ] This div should have borders outside, have margins and paddings also.
+- [X] Create a div that contains this following items.
+    - [X] Pictures, you can pick some items on the internet.
+    - [X] A text for Title.
+    - [X] A text for Artist.
+    - [X] A text for Albums.
+    - [X] A button that does nothing.
+    - [X] This div should have borders outside, have margins and paddings also.
