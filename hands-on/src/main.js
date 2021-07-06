@@ -11,6 +11,13 @@ const students = [
   new Student('Clara', 20),
 ];
 
+function generateTable() {
+  const table = document.querySelector('table');
+  // Terima kasih, A. Tangguh Wisesa.
+  students.map((student) => {
+    table.insertRow().innerHTML = `<td>${student.name}</td><td>${student.age}</td>`;
+  });
+}
 
 function calculateAverageAge(acc, { age = 20 }) {
   return acc + age;
@@ -20,3 +27,6 @@ function getAverageAge(students) {
   const totalAge = students.reduce(calculateAverageAge, 0);
   return totalAge / students.length;
 }
+
+
+generateTable();
