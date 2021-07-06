@@ -28,5 +28,8 @@ function getAverageAge(students) {
   return totalAge / students.length;
 }
 
+document.getElementById('getAverageButton').addEventListener('click', () => {
+  document.getElementById('averageText').innerHTML = getAverageAge(students);
+});
 
 generateTable();
